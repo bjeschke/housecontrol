@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.card-title i {
+    padding-right: 10px;
+}
+
+.light-status.active {
+    color: #FACA08;
+}
+
+.curtains-status.active {
+    color: #FACA08;
+}
+
+.toggleswitch input {
+    visibility: hidden;
+}
+
+input[type=range] {
+    cursor: pointer;
+}
+
+.btn-default {
+    cursor: pointer;
+}
+
+
+.btn-default.btn-on.active {
+    background-color: #5BB75B;
+    color: white;
+}
+
+.btn-default.btn-off.active {
+    background-color: #DA4F49;
+    color: white;
+}
+
